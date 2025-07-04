@@ -1,0 +1,38 @@
+
+/* @media  screen and (min-width: 570 px) {
+body {}    
+} */
+
+body{
+
+    display:flex;
+    flex-direction:   row-reverse;
+    justify-content: center;
+    background-color:burlywood;
+
+}
+main{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+aside{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#photo{
+    width:200px;
+}
+
+@media screen and (max-width: 615px) {
+#container{
+display: flex;
+flex-direction:  column-reverse;
+text-align: center;
+}
+;    
+}
